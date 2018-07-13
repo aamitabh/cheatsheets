@@ -1,9 +1,12 @@
-- [Promise](#promise)
-- [Markdown Sample](#markdown-sample)
-    - [Task List](#task-list)
-    - [Table Heading](#table-heading)
 
+- [Promise](#promise)
+    - [Understanding resolve / reject](#understanding-resolve--reject)
+- [Closure](#closure)
+
+---
 # Promise
+## Understanding resolve / reject
+[link source](https://basarat.gitbooks.io/typescript/docs/promise.html)
 ```js
     const promise = new Promise((resolve, reject) => {
         resolve(123);
@@ -24,3 +27,4 @@
         console.log('I get called:', err.message); // I get called: 'Something awful happened'
     });
 ```
+# Closure
